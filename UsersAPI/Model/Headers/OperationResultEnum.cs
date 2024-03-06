@@ -1,8 +1,7 @@
-﻿namespace UsersAPI.Model.Headers
+﻿namespace UsersAPI.Model.Headers;
+
+public enum OperationResultEnum
 {
-    public enum OperationResultEnum
-    {
-        OK,
-        ERROR
-    }
+    OK,
+    ERROR
 }

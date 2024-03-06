@@ -1,9 +1,8 @@
-﻿namespace UsersAPI.DAO
+﻿namespace UsersAPI.DAO;
+
+public enum UserRolesEnum
 {
-    public enum UserRolesEnum
-    {
-        Administrator = 1,
-        Auditor,
-        Assistant
-    }
+    Administrator = 1,
+    Auditor,
+    Assistant
 }

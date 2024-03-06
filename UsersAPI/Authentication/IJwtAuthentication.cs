@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿namespace UsersAPI.Authentication;
 
-namespace UsersAPI.Authentication
+public interface IJwtAuthentication
 {
-    public interface IJwtAuthentication
-    {
-        (string, DateTime) GetToken(string userName, IEnumerable<string> roles);
-    }
+    (string, DateTime) GetToken(string userName, IEnumerable<string> roles);
 }
